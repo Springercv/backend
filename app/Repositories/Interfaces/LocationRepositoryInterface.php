@@ -1,0 +1,8 @@
+<?php
+namespace App\Repositories\Interfaces;
+
+
+interface LocationRepositoryInterface
+{
+    public function findLocationOfCity();
+}
